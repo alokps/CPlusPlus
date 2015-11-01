@@ -1,0 +1,5 @@
+language: c
+compiler:
+  - clang
+  - g++
+script: g++ Test.cpp
