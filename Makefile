@@ -1,6 +1,6 @@
 CXXFLAGS =	-O2 -g -Wall -fmessage-length=0
 
-OBJS =		Test.o
+OBJS =		Test_1.o
 
 LIBS =
 
