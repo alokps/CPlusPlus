@@ -42,5 +42,12 @@ pipeline{
 			}
 		}
 
+		stage('make run'){
+
+			steps{
+				sh './target'
+			}
+		}
+
 	}
 }
