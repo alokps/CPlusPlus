@@ -27,6 +27,20 @@ pipeline{
 
 		}
 
+		stage('make clean'){
+
+			steps{
+				sh 'make clean'
+			}
+
+		}
+
+		stage('make all'){
+
+			steps{
+				sh 'make all'
+			}
+		}
 
 	}
 }
